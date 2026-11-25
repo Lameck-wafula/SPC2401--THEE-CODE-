@@ -1,0 +1,11 @@
+
+package com.kyu.grades.interfaces;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface GradeService extends Remote {
+
+    String testConnection() throws RemoteException;
+
+}
